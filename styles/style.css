@@ -1,0 +1,32 @@
+.ttt-game {
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
+}
+
+
+.ttt-game  > .wrapper{
+    border: 1px solid black;
+    margin: 3px;
+    padding: 3px;
+    height: auto;
+    width: auto;
+    display:inline-block;
+}
+.ttt-game .board{
+    padding:0px;
+    margin:0px;
+    overflow: hidden;
+}
+
+
+.ttt-game  .board .cell {
+    height: 30px;
+    width: 30px;
+    margin: 3px;
+    border:1px solid  #000;
+    float: left;
+    list-style: none;
+    line-height: 30px;
+
+}
